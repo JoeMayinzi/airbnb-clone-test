@@ -233,17 +233,13 @@ function App() {
                 className=" w-full"
               />
               <img
-                src="/assets/img/Overlay2.png"
+                src="/assets/img/bed.png"
                 alt="img"
                 className="rounded-br-lg w-full"
               />
+              <img src="/assets/img/bed2.png " className="w-full" alt="img" />
               <img
-                src="/assets/img/Overlay2.png "
-                className="w-full"
-                alt="img"
-              />
-              <img
-                src="/assets/img/Overlay2.png"
+                src="/assets/img/bed3.png"
                 alt="img"
                 className="rounded-br-lg w-full"
               />
@@ -381,116 +377,6 @@ function App() {
             </div>
           </div>
         </div>
-      </section>
-      <section>
-        Le lorem ipsum est, en imprimerie, une suite de mots sans signification
-        utilisée à titre provisoire pour calibrer une mise en page, le texte
-        définitif venant remplacer le faux-texte dès qu'il est prêt ou que la
-        mise en page est achevée. Généralement, on utilise un texte en faux
-        latin, le Lorem ipsum ou Lipsum. Le lorem ipsum est, en imprimerie, une
-        suite de mots sans signification utilisée à titre provisoire pour
-        calibrer une mise en page, le texte définitif venant remplacer le
-        faux-texte dès qu'il est prêt ou que la mise en page est achevée.
-        Généralement, on utilise un texte en faux latin, le Lorem ipsum ou
-        Lipsum. Le lorem ipsum est, en imprimerie, une suite de mots sans
-        signification utilisée à titre provisoire pour calibrer une mise en
-        page, le texte définitif venant remplacer le faux-texte dès qu'il est
-        prêt ou que la mise en page est achevée. Généralement, on utilise un
-        texte en faux latin, le Lorem ipsum ou Lipsum. Le lorem ipsum est, en
-        imprimerie, une suite de mots sans signification utilisée à titre
-        provisoire pour calibrer une mise en page, le texte définitif venant
-        remplacer le faux-texte dès qu'il est prêt ou que la mise en page est
-        achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum
-        ou Lipsum. Le lorem ipsum est, en imprimerie, une suite de mots sans
-        signification utilisée à titre provisoire pour calibrer une mise en
-        page, le texte définitif venant remplacer le faux-texte dès qu'il est
-        prêt ou que la mise en page est achevée. Généralement, on utilise un
-        texte en faux latin, le Lorem ipsum ou Lipsum. Le lorem ipsum est, en
-        imprimerie, une suite de mots sans signification utilisée à titre
-        provisoire pour calibrer une mise en page, le texte définitif venant
-        remplacer le faux-texte dès qu'il est prêt ou que la mise en page est
-        achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum
-        ou Lipsum. Le lorem ipsum est, en imprimerie, une suite de mots sans
-        signification utilisée à titre provisoire pour calibrer une mise en
-        page, le texte définitif venant remplacer le faux-texte dès qu'il est
-        prêt ou que la mise en page est achevée. Généralement, on utilise un
-        texte en faux latin, le Lorem ipsum ou Lipsum. en page, le texte
-        définitif venant remplacer le faux-texte dès qu'il est prêt ou que la
-        mise en page est achevée. Généralement, on utilise un texte en faux
-        latin, le Lorem ipsum ou Lipsum. Le lorem ipsum est, en imprimerie, une
-        suite de mots sans signification utilisée à titre provisoire pour
-        calibrer une mise en page, le texte définitif venant remplacer le
-        faux-texte dès qu'il est prêt ou que la mise en page est achevée.
-        Généralement, on utilise un texte en faux latin, le Lorem ipsum ou
-        Lipsum. Le lorem ipsum est, en imprimerie, une suite de mots sans
-        signification utilisée à titre provisoire pour calibrer une mise en
-        page, le texte définitif venant remplacer le faux-texte dès qu'il est
-        prêt ou que la mise en page est achevée. Généralement, on utilise un
-        texte en faux latin, le Lorem ipsum ou Lipsum. Le lorem ipsum est, en
-        imprimerie, une suite de mots sans signification utilisée à titre
-        provisoire pour calibrer une mise en page, le texte définitif venant
-        remplacer le faux-texte dès qu'il est prêt ou que la mise en page est
-        achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum
-        ou Lipsum. Le lorem ipsum est, en imprimerie, une suite de mots sans
-        signification utilisée à titre provisoire pour calibrer une mise en
-        page, le texte définitif venant remplacer le faux-texte dès qu'il est
-        prêt ou que la mise en page est achevée. Généralement, on utilise un
-        texte en faux latin, le Lorem ipsum ou Lipsum. Le lorem ipsum est, en
-        imprimerie, une suite de mots sans signification utilisée à titre
-        provisoire pour calibrer une mise en page, le texte définitif venant
-        remplacer le faux-texte dès qu'il est prêt ou que la mise en page est
-        achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum
-        ou Lipsum. en page, le texte définitif venant remplacer le faux-texte
-        dès qu'il est prêt ou que la mise en page est achevée. Généralement, on
-        utilise un texte en faux latin, le Lorem ipsum ou Lipsum. Le lorem ipsum
-        est, en imprimerie, une suite de mots sans signification utilisée à
-        titre provisoire pour calibrer une mise en page, le texte définitif
-        venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page
-        est achevée. Généralement, on utilise un texte en faux latin, le Lorem
-        ipsum ou Lipsum. Le lorem ipsum est, en imprimerie, une suite de mots
-        sans signification utilisée à titre provisoire pour calibrer une mise en
-        page, le texte définitif venant remplacer le faux-texte dès qu'il est
-        prêt ou que la mise en page est achevée. Généralement, on utilise un
-        texte en faux latin, le Lorem ipsum ou Lipsum. Le lorem ipsum est, en
-        imprimerie, une suite de mots sans signification utilisée à titre
-        provisoire pour calibrer une mise en page, le texte définitif venant
-        remplacer le faux-texte dès qu'il est prêt ou que la mise en page est
-        achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum
-        ou Lipsum. Le lorem ipsum est, en imprimerie, une suite de mots sans
-        signification utilisée à titre provisoire pour calibrer une mise en
-        page, le texte définitif venant remplacer le faux-texte dès qu'il est
-        prêt ou que la mise en page est achevée. Généralement, on utilise un
-        texte en faux latin, le Lorem ipsum ou Lipsum. Le lorem ipsum est, en
-        imprimerie, une suite de mots sans signification utilisée à titre
-        provisoire pour calibrer une mise en page, le texte définitif venant
-        remplacer le faux-texte dès qu'il est prêt ou que la mise en page est
-        achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum
-        ou Lipsum. en page, le texte définitif venant remplacer le faux-texte
-        dès qu'il est prêt ou que la mise en page est achevée. Généralement, on
-        utilise un texte en faux latin, le Lorem ipsum ou Lipsum. Le lorem ipsum
-        est, en imprimerie, une suite de mots sans signification utilisée à
-        titre provisoire pour calibrer une mise en page, le texte définitif
-        venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page
-        est achevée. Généralement, on utilise un texte en faux latin, le Lorem
-        ipsum ou Lipsum. Le lorem ipsum est, en imprimerie, une suite de mots
-        sans signification utilisée à titre provisoire pour calibrer une mise en
-        page, le texte définitif venant remplacer le faux-texte dès qu'il est
-        prêt ou que la mise en page est achevée. Généralement, on utilise un
-        texte en faux latin, le Lorem ipsum ou Lipsum. Le lorem ipsum est, en
-        imprimerie, une suite de mots sans signification utilisée à titre
-        provisoire pour calibrer une mise en page, le texte définitif venant
-        remplacer le faux-texte dès qu'il est prêt ou que la mise en page est
-        achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum
-        ou Lipsum. Le lorem ipsum est, en imprimerie, une suite de mots sans
-        signification utilisée à titre provisoire pour calibrer une mise en
-        page, le texte définitif venant remplacer le faux-texte dès qu'il est
-        prêt ou que la mise en page est achevée. Généralement, on utilise un
-        texte en faux latin, le Lorem ipsum ou Lipsum. Le lorem ipsum est, en
-        imprimerie, une suite de mots sans signification utilisée à titre
-        provisoire pour calibrer une mise en page, le texte définitif venant
-        remplacer le faux-texte dès qu'il est prêt ou que la mise en page est
-        achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum
-        ou Lipsum.
       </section>
     </div>
   );
