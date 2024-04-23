@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <header className="p-4 border-y border-[#DDDDDD]  ">
+      <header className=" fixed  top-0 bg-white w-full  mb-16 z-10 p-4 border-y border-[#DDDDDD]  ">
         <div className=" container mx-auto flex  justify-between items-center">
           <div>
             <img src="/assets/img/logo1.png" alt="the website logo" />
@@ -93,7 +93,7 @@ function App() {
           </div>
         </div>
       </header>
-      <section className="mt-5">
+      <section className="mt-10">
         <div className="container mx-auto">
           <div className="flex justify-between mb-4">
             <div className="flex items-center gap-2">
@@ -219,7 +219,7 @@ function App() {
             </div>
           </div>
           <div className="flex w-full  gap-2">
-            <div>
+            <div className="relative z-0 before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full hover:before:bg-black before:opacity-30 transition-all">
               <img
                 src="/assets/img/Overlay1.png"
                 alt="img"
@@ -227,22 +227,30 @@ function App() {
               />
             </div>
             <div className=" grid grid-cols-2 gap-1 flex-1">
-              <img
-                src="/assets/img/Overlay2.png"
-                alt="img"
-                className=" w-full"
-              />
-              <img
-                src="/assets/img/bed.png"
-                alt="img"
-                className="rounded-br-lg w-full"
-              />
-              <img src="/assets/img/bed2.png " className="w-full" alt="img" />
-              <img
-                src="/assets/img/bed3.png"
-                alt="img"
-                className="rounded-br-lg w-full"
-              />
+              <div className="relative z-0 w-full before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full hover:before:bg-black before:opacity-30 transition-all">
+                <img
+                  src="/assets/img/Overlay2.png"
+                  alt="img"
+                  className=" w-full"
+                />
+              </div>
+              <div className="  relative z-0 w-full before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full hover:before:bg-black before:opacity-30 transition-all">
+                <img src="/assets/img/bed.png" className=" w-full" alt="img" />
+              </div>
+              <div className="relative w-full before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full hover:before:bg-black before:opacity-30 transition-all">
+                <img
+                  src="/assets/img/bed2.png "
+                  className="rounded-br-lg w-full z-0"
+                  alt="img"
+                />
+              </div>
+              <div className=" relative w-full before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full hover:before:bg-black before:opacity-30 transition-all">
+                <img
+                  src="/assets/img/bed3.png"
+                  className="rounded-br-lg w-full z-0"
+                  alt="img"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -279,9 +287,245 @@ function App() {
                 </h2>
               </div>
             </div>
+            <div className="flex items-center gap-5 mt-5">
+              <div>
+                <img
+                  src="/assets/img/little.png"
+                  className="rounded-full"
+                  alt="little"
+                />
+              </div>
+              <div>
+                <h5 className=" font-semibold">Hôte : Alee</h5>
+                <span className=" text-xs text-[#6A6A6A] ">
+                  Superhôte · Hôte depuis 3 ans
+                </span>
+              </div>
+            </div>
+            <div className="flex items-center gap-5 mt-5">
+              <div>
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g filter="url(#filter0_d_1_100)">
+                    <path
+                      d="M23.5 2C23.6472 2.00012 23.7911 2.04356 23.9138 2.12492C24.0365 2.20627 24.1326 2.32194 24.19 2.4575L24.22 2.5475L25.72 7.7975C25.7489 7.90191 25.7548 8.01133 25.7373 8.11824C25.7199 8.22515 25.6795 8.32701 25.6189 8.41681C25.5583 8.50661 25.479 8.58223 25.3864 8.63845C25.2938 8.69467 25.1901 8.73017 25.0825 8.7425L25 8.75H22.75V12.5H27.25V14H25.75V23.75H24.25V21.845C23.8538 22.0754 23.4098 22.2114 22.9525 22.2425L22.75 22.25H9.25C8.72302 22.2498 8.20548 22.11 7.75 21.845V23.75H6.25V14H4.75V12.5H8.5V9.5C8.49867 9.31574 8.56522 9.13744 8.68695 8.99911C8.80867 8.86078 8.97707 8.77211 9.16 8.75H9.43L8.5675 6.8L9.9325 6.2L11.0725 8.75H13C13.1843 8.74867 13.3626 8.81522 13.5009 8.93694C13.6392 9.05867 13.7279 9.22707 13.75 9.41V12.5H21.25V8.75H19C18.8912 8.75031 18.7836 8.72694 18.6847 8.68151C18.5858 8.63607 18.498 8.56966 18.4274 8.48688C18.3567 8.4041 18.3049 8.30694 18.2756 8.20215C18.2463 8.09735 18.2401 7.98742 18.2575 7.88L18.28 7.7975L19.78 2.5475C19.8202 2.40549 19.9015 2.2785 20.0135 2.18244C20.1256 2.08638 20.2635 2.02553 20.41 2.0075L20.5 2H23.5ZM24.25 14H7.75V19.25C7.74953 19.6092 7.87795 19.9566 8.11193 20.2291C8.3459 20.5016 8.66989 20.6811 9.025 20.735L9.1375 20.7425L9.25 20.75H22.75C23.1291 20.7511 23.4945 20.6086 23.7728 20.3512C24.0511 20.0937 24.2216 19.7405 24.25 19.3625V14ZM12.25 10.25H10V12.5H12.25V10.25ZM22.93 3.5H21.0625L19.99 7.25H24.0025L22.93 3.5Z"
+                      fill="#222222"
+                    />
+                  </g>
+                  <defs>
+                    <filter
+                      id="filter0_d_1_100"
+                      x="0"
+                      y="0.5"
+                      width="32"
+                      height="32"
+                      filterUnits="userSpaceOnUse"
+                      color-interpolation-filters="sRGB"
+                    >
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feColorMatrix
+                        in="SourceAlpha"
+                        type="matrix"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha"
+                      />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="out" />
+                      <feColorMatrix
+                        type="matrix"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                      />
+                      <feBlend
+                        mode="normal"
+                        in2="BackgroundImageFix"
+                        result="effect1_dropShadow_1_100"
+                      />
+                      <feBlend
+                        mode="normal"
+                        in="SourceGraphic"
+                        in2="effect1_dropShadow_1_100"
+                        result="shape"
+                      />
+                    </filter>
+                  </defs>
+                </svg>
+              </div>
+              <div>
+                <h5 className=" font-semibold">Espace de travail dédié</h5>
+                <span className=" text-xs text-[#6A6A6A]">
+                  Un espace commun avec wifi, bien aménagé pour travailler.
+                </span>
+              </div>
+            </div>
+            <div className="flex items-center gap-5 mt-5">
+              <div>
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g filter="url(#filter0_d_1_100)">
+                    <path
+                      d="M23.5 2C23.6472 2.00012 23.7911 2.04356 23.9138 2.12492C24.0365 2.20627 24.1326 2.32194 24.19 2.4575L24.22 2.5475L25.72 7.7975C25.7489 7.90191 25.7548 8.01133 25.7373 8.11824C25.7199 8.22515 25.6795 8.32701 25.6189 8.41681C25.5583 8.50661 25.479 8.58223 25.3864 8.63845C25.2938 8.69467 25.1901 8.73017 25.0825 8.7425L25 8.75H22.75V12.5H27.25V14H25.75V23.75H24.25V21.845C23.8538 22.0754 23.4098 22.2114 22.9525 22.2425L22.75 22.25H9.25C8.72302 22.2498 8.20548 22.11 7.75 21.845V23.75H6.25V14H4.75V12.5H8.5V9.5C8.49867 9.31574 8.56522 9.13744 8.68695 8.99911C8.80867 8.86078 8.97707 8.77211 9.16 8.75H9.43L8.5675 6.8L9.9325 6.2L11.0725 8.75H13C13.1843 8.74867 13.3626 8.81522 13.5009 8.93694C13.6392 9.05867 13.7279 9.22707 13.75 9.41V12.5H21.25V8.75H19C18.8912 8.75031 18.7836 8.72694 18.6847 8.68151C18.5858 8.63607 18.498 8.56966 18.4274 8.48688C18.3567 8.4041 18.3049 8.30694 18.2756 8.20215C18.2463 8.09735 18.2401 7.98742 18.2575 7.88L18.28 7.7975L19.78 2.5475C19.8202 2.40549 19.9015 2.2785 20.0135 2.18244C20.1256 2.08638 20.2635 2.02553 20.41 2.0075L20.5 2H23.5ZM24.25 14H7.75V19.25C7.74953 19.6092 7.87795 19.9566 8.11193 20.2291C8.3459 20.5016 8.66989 20.6811 9.025 20.735L9.1375 20.7425L9.25 20.75H22.75C23.1291 20.7511 23.4945 20.6086 23.7728 20.3512C24.0511 20.0937 24.2216 19.7405 24.25 19.3625V14ZM12.25 10.25H10V12.5H12.25V10.25ZM22.93 3.5H21.0625L19.99 7.25H24.0025L22.93 3.5Z"
+                      fill="#222222"
+                    />
+                  </g>
+                  <defs>
+                    <filter
+                      id="filter0_d_1_100"
+                      x="0"
+                      y="0.5"
+                      width="32"
+                      height="32"
+                      filterUnits="userSpaceOnUse"
+                      color-interpolation-filters="sRGB"
+                    >
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feColorMatrix
+                        in="SourceAlpha"
+                        type="matrix"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha"
+                      />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="out" />
+                      <feColorMatrix
+                        type="matrix"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                      />
+                      <feBlend
+                        mode="normal"
+                        in2="BackgroundImageFix"
+                        result="effect1_dropShadow_1_100"
+                      />
+                      <feBlend
+                        mode="normal"
+                        in="SourceGraphic"
+                        in2="effect1_dropShadow_1_100"
+                        result="shape"
+                      />
+                    </filter>
+                  </defs>
+                </svg>
+              </div>
+              <div>
+                <h5 className=" font-semibold">Arrivée autonome</h5>
+                <span className=" text-xs text-[#6A6A6A]">
+                  Vous pouvez accéder au logement en faisant appel au personnel
+                  de l'immeuble.
+                </span>
+              </div>
+            </div>
+            <div className="flex items-center gap-5 mt-5">
+              <div>
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g filter="url(#filter0_d_1_100)">
+                    <path
+                      d="M23.5 2C23.6472 2.00012 23.7911 2.04356 23.9138 2.12492C24.0365 2.20627 24.1326 2.32194 24.19 2.4575L24.22 2.5475L25.72 7.7975C25.7489 7.90191 25.7548 8.01133 25.7373 8.11824C25.7199 8.22515 25.6795 8.32701 25.6189 8.41681C25.5583 8.50661 25.479 8.58223 25.3864 8.63845C25.2938 8.69467 25.1901 8.73017 25.0825 8.7425L25 8.75H22.75V12.5H27.25V14H25.75V23.75H24.25V21.845C23.8538 22.0754 23.4098 22.2114 22.9525 22.2425L22.75 22.25H9.25C8.72302 22.2498 8.20548 22.11 7.75 21.845V23.75H6.25V14H4.75V12.5H8.5V9.5C8.49867 9.31574 8.56522 9.13744 8.68695 8.99911C8.80867 8.86078 8.97707 8.77211 9.16 8.75H9.43L8.5675 6.8L9.9325 6.2L11.0725 8.75H13C13.1843 8.74867 13.3626 8.81522 13.5009 8.93694C13.6392 9.05867 13.7279 9.22707 13.75 9.41V12.5H21.25V8.75H19C18.8912 8.75031 18.7836 8.72694 18.6847 8.68151C18.5858 8.63607 18.498 8.56966 18.4274 8.48688C18.3567 8.4041 18.3049 8.30694 18.2756 8.20215C18.2463 8.09735 18.2401 7.98742 18.2575 7.88L18.28 7.7975L19.78 2.5475C19.8202 2.40549 19.9015 2.2785 20.0135 2.18244C20.1256 2.08638 20.2635 2.02553 20.41 2.0075L20.5 2H23.5ZM24.25 14H7.75V19.25C7.74953 19.6092 7.87795 19.9566 8.11193 20.2291C8.3459 20.5016 8.66989 20.6811 9.025 20.735L9.1375 20.7425L9.25 20.75H22.75C23.1291 20.7511 23.4945 20.6086 23.7728 20.3512C24.0511 20.0937 24.2216 19.7405 24.25 19.3625V14ZM12.25 10.25H10V12.5H12.25V10.25ZM22.93 3.5H21.0625L19.99 7.25H24.0025L22.93 3.5Z"
+                      fill="#222222"
+                    />
+                  </g>
+                  <defs>
+                    <filter
+                      id="filter0_d_1_100"
+                      x="0"
+                      y="0.5"
+                      width="32"
+                      height="32"
+                      filterUnits="userSpaceOnUse"
+                      color-interpolation-filters="sRGB"
+                    >
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feColorMatrix
+                        in="SourceAlpha"
+                        type="matrix"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha"
+                      />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="out" />
+                      <feColorMatrix
+                        type="matrix"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                      />
+                      <feBlend
+                        mode="normal"
+                        in2="BackgroundImageFix"
+                        result="effect1_dropShadow_1_100"
+                      />
+                      <feBlend
+                        mode="normal"
+                        in="SourceGraphic"
+                        in2="effect1_dropShadow_1_100"
+                        result="shape"
+                      />
+                    </filter>
+                  </defs>
+                </svg>
+              </div>
+              <div>
+                <h5 className=" font-semibold">Alee est Superhôte</h5>
+                <span className=" text-xs text-[#6A6A6A]">
+                  Les Superhôtes sont des hôtes expérimentés et très bien notés.
+                </span>
+              </div>
+            </div>
+            <div className="mt-5">
+              <p>
+                Certaines informations ont été traduites automatiquement.
+                <span className=" font-semibold">
+                  Certaines informations ont été traduites automatiquement.
+                  Afficher le texte d'origine
+                </span>
+              </p>
+            </div>
+            <div className="mt-5">
+              <p>
+                Depuis notre grand balcon, vous pourrez profiter d'une vue
+                unique sur Burj Khalifa et les fontaines magiques. Profitez du
+                petit-déjeuner le matin sur notre table à manger confortable
+                surplombant la vieille ville de Dubaï ou décontracté la nuit
+                dans nos sièges confortables - en profitant de la vidéo et des
+                spectacles laser de Burj Khalifa ! <br />
+                Également depuis notre studio et depuis le lit confortable, vous
+                pouvez profiter …
+              </p>
+              <p>
+                <a href="#" className=" underline font-semibold">
+                  En savoir plus
+                </a>
+              </p>
+            </div>
+            <div className="mt-5">
+              <div>
+                <h2 className=" font-semibold">7 nuits à Dubaï</h2>
+                <span className=" text-xs text-[#6A6A6A] ">
+                  1 mai 2024 - 8 mai 2024
+                </span>
+                <div>
+                  <img src="/assets/img/Background.png" alt="background" />
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="relative">
-            <div className="w-[372.33px] bg-white p-4 border border-[#B0B0B0] rounded-lg shadow-lg">
+          <div>
+            <div className="sticky top-0  w-[372.33px] h-[549px] bg-white p-4 border border-[#B0B0B0] rounded-lg shadow-lg">
               <p className="mb-2">
                 <span className=" font-semibold text-xl">116£</span> par nuit
               </p>
@@ -313,7 +557,7 @@ function App() {
                   </span>
                 </div>
                 <div>
-                  <div className="flex justify-between mb-3">
+                  <div className="flex justify-between mb-3 border-b border- [#000] ">
                     <div>
                       <div>
                         <span>
@@ -325,6 +569,7 @@ function App() {
                       <span>853 €</span>
                     </div>
                   </div>
+
                   <div className="flex justify-between mb-3">
                     <div>
                       <div>

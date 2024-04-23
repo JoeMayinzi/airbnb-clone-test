@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.solve {
+  position: sticky !important;
+  top: var(--navigation-bar-offset, 80px) !important;
+  z-index: 1 !important;
+  width: 100% !important;
+  display: inline-block !important;
+  padding-right: 1px !important;
+}
