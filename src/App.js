@@ -1,9 +1,9 @@
-import "./App.css";
+import "./index";
 
 function App() {
   return (
     <div>
-      <header className=" fixed  top-0 bg-white w-full  mb-16 z-10 p-4 border-y border-[#DDDDDD]  ">
+      <header className=" sticky top-0 bg-white w-full  mb-16 z-10 p-4 border-y border-[#DDDDDD]  ">
         <div className=" container mx-auto flex  justify-between items-center">
           <div>
             <img src="/assets/img/logo1.png" alt="the website logo" />
@@ -525,7 +525,7 @@ function App() {
             </div>
           </div>
           <div>
-            <div className="sticky top-0  w-[372.33px] h-[549px] bg-white p-4 border border-[#B0B0B0] rounded-lg shadow-lg">
+            <div className="sticky top-40  w-[372.33px] h-[549px] bg-white p-4 border border-[#B0B0B0] rounded-lg shadow-lg">
               <p className="mb-2">
                 <span className=" font-semibold text-xl">116£</span> par nuit
               </p>
